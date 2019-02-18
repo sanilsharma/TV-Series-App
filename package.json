@@ -17,8 +17,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "devDependencies": {
-    "webpack-dev-server": ">=3.1.11"
-  },
   "proxy": "http://localhost:5000"
 }
