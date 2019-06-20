@@ -2,6 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "Homepage": "https://sanilsharma.github.io/TV-Series-App",
   "dependencies": {
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
@@ -9,13 +10,16 @@
     "react-scripts": "1.1.5",
     "semantic-ui-css": "^2.4.0",
     "semantic-ui-react": "^0.82.5",
-    "whatwg-fetch": "^3.0.0"
+    "whatwg-fetch": "^3.0.0",
+    "gh-pages": "^2.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d public"
   },
   "proxy": "http://localhost:5000"
 }
